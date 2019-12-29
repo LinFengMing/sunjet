@@ -1590,3 +1590,7 @@ div[style*="chrome-extension://gofhjkjmkpinhpoiabjplobcaignabnl"] {
 	font-size: 12px;
     padding-bottom: 10px;
 }
+
+.banner {
+	margin-bottom: 30px;
+}
