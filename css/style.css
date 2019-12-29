@@ -1577,11 +1577,15 @@ div[style*="chrome-extension://gofhjkjmkpinhpoiabjplobcaignabnl"] {
 .logo {
 	text-indent: -99999px;
     background: url(/images/logo/sj1.jpg) no-repeat;
-    width: 300px;
+    max-width: 300px;
     height: 47px;
 	background-size: contain;
 	margin-top: 20px;
 	margin-left: 15px;
+}
+
+.mobile-view .logo {
+	margin-left: 0;
 }
 
 .slogan {
